@@ -4,6 +4,10 @@
 
 The primary goal of this project was to implement a robust and user-friendly framework within Lunatik, enabling developers to write Human Interface Device (HID) drivers for the Linux kernel entirely in Lua. The aim was to abstract the complexities of the C-based HID subsystem, providing a high-level, scriptable interface for tasks like device matching, initialization, event handling, and descriptor manipulation. This would empower developers to prototype and create custom HID drivers with greater speed and flexibility.
 
+
+
+[This](./acceptance_letter_2025_Jieming-Zhou.pdf) is my acceptance letter and [This](./proposal-gsoc2025-ketsuminchow-ver6.pdf) is my proposal.
+
 ## 2. Work Accomplished (Deliverables)
 
 Throughout the GSoC period, I implemented the core foundation of the LuaHID framework. The work is spread across several pull requests, demonstrating an incremental development approach.
@@ -230,8 +234,6 @@ typedef struct {
 } luahid_raw_event_arg_t;
 
 ```
-
-
 
 ### Callback Implementation Deep Dive: `raw_event`
 
