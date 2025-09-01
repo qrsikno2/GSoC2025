@@ -351,4 +351,6 @@ While the core framework is in place, there is more work to be done to achieve t
 
 I want to extend my deepest gratitude to my mentor, **Lourival Vieira Neto**. His technical guidance was invaluable, but his mentorship on open-source culture, communication, and process was truly transformative. He was patient through my mistakes, firm when I needed direction, and always encouraging. His constant reminders to "read the code," "take baby steps," and communicate openly have made me a better developer.
 
-I would also like to thank the **LabLua Foundation** for accepting me into their community and giving me this incredible opportunity to work on a project that intersects with my passions for Lua and the Linux kernel. This GSoC journey has been challenging, but it has taught me lessons that will last a lifetime.
+I would also thanks Mohammad Shehar Yarr Tausif who reviewed my code and gave me many useful suggestions. His insights into kernel development and Lua integration were incredibly helpful.
+
+I'll always appreciate the **LabLua Foundation** for accepting me into their community and giving me this incredible opportunity to work on a project that intersects with my passions for Lua and the Linux kernel. This GSoC journey has been challenging, but it has taught me lessons that will last a lifetime.
