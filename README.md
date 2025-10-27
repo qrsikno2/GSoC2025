@@ -195,7 +195,7 @@ static const struct hid_device_id *luahid_setidtable(lua_State *L, int idx)
 }
 ```
 
-To store the temporary passing data and user's  private data of each unique device,. i use `lua_table` to store it where hid is "main table" and ops and info is either the lua driver or the private data for device, indexed with their address of `hdev`. That would make sure there is only one key for each device.
+To store the temporary passing data and user's  private data of each unique device. i use `lua_table` to store it where hid is "main table" and ops and info is either the lua driver or the private data for device, indexed with their address of `hdev`. That would make sure there is only one key for each device.
 
 ```c
 	lua_newtable(L); /* hid = {} */
